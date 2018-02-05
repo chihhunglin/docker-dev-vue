@@ -2,6 +2,10 @@
 
 > A Vue.js project
 
+* master: vue + vue router
+* vuex: vue + vue router + vuex
+* i18n: vue + vue router + vuex + vue i18n
+
 ## Run develop
 
 ```bash
