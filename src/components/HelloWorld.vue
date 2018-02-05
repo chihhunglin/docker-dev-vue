@@ -80,12 +80,17 @@
         </a>
       </li>
     </ul>
+    <counter></counter>
   </div>
 </template>
 
 <script>
+import Counter from './Counter'
 export default {
   name: 'HelloWorld',
+  components: {
+    Counter
+  },
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
