@@ -13,3 +13,6 @@
 ```bash
 # docker-compose up
 ```
+
+## vue cli
+![Image of vue](https://github.com/chihhunglin/docker-dev-vue/blob/master/docs/vue-cli.png)
