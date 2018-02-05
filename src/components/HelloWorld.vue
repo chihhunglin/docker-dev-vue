@@ -1,7 +1,9 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <h1>{{ $t('title.helloWorld') }}</h1>
     <h2>Essential Links</h2>
+    <button v-on:click="change('en')">en</button>
+    <button v-on:click="change('ja')">ja</button>
     <ul>
       <li>
         <a
@@ -94,6 +96,11 @@ export default {
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
+    }
+  },
+  methods: {
+    change: function (locale) {
+      this.$i18n.locale = locale
     }
   }
 }
